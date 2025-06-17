@@ -63,7 +63,11 @@ export default function ResultDisplay({ data, onScanAgain }: ResultDisplayProps)
             <h1 className="block mt-1 text-2xl leading-tight font-bold text-black dark:text-white">{data.productName}</h1>
             <p className="mt-2 text-gray-500 dark:text-gray-400">{data.quantity}</p>
           </div>
-          
+          <span  className='text-lg mt-2'>
+            
+            Eco Score
+                
+            </span>
           <div className={`mt-4 w-full text-center p-3 rounded-lg font-semibold text-lg border ${mainColorClasses[data.color]}`}>
             {data.ecoScoreLabel}
           </div>
