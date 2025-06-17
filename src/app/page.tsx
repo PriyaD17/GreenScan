@@ -123,7 +123,7 @@ export default function LandingPage() {
                 <CardTitle className="text-2xl">Full Ingredient Deep-Dive</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-slate-400">We don't just stop at the score. Get a full breakdown of ingredients, allergens, and nutritional information to know exactly what you're buying.</p>
+                <p className="text-slate-400">We dont just stop at the score. Get a full breakdown of ingredients, allergens, and nutritional information to know exactly what you are buying.</p>
               </CardContent>
             </Card>
              <Card className="bg-slate-900/50 border-emerald-400/20 shadow-2xl shadow-emerald-900/30 hover:border-emerald-400/50 transition-colors">
@@ -145,7 +145,7 @@ export default function LandingPage() {
         {/* -------------------- */}
         <section className="py-24">
             <Card className="bg-gradient-to-br from-emerald-900/60 to-slate-900/50 border-slate-700/50 p-8 md:p-12 text-center">
-                <p className="text-2xl md:text-3xl font-medium italic text-white">"GreenScan completely changed how I shop. I feel like I have a superpower in the grocery aisle. It's not just an app; it's a movement."</p>
+                <p className="text-2xl md:text-3xl font-medium italic text-white">GreenScan completely changed how I shop. I feel like I have a superpower in the grocery aisle. Its not just an app; its a movement.</p>
                 <div className="flex items-center justify-center gap-4 mt-8">
                     <Avatar>
                         <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
