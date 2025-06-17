@@ -82,7 +82,7 @@ export default function ResultDisplay({ data, onScanAgain }: ResultDisplayProps)
             <h3 className="text-lg font-semibold text-gray-700 dark:text-gray-200">At a Glance</h3>
             <div className="flex flex-wrap gap-2 mt-2">
               {Object.entries(data.nutrientLevels).map(([key, value]) => (
-                <span key={key} className={`px-2 py-1 text-xs font-bold rounded-full ${nutrientLevelClasses[value] || 'bg-gray-200'}`}>
+                <span key={key} className={`px-2 py-1 text-xs font-bold rounded-full ${nutrientLevelClasses[value as keyof typeof nutrientLevelClasses] || 'bg-gray-200'}`}>
                   {capitalize(key.replace('-', ' '))} is {value}
                 </span>
               ))}
