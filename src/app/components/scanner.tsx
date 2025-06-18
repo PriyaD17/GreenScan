@@ -1,4 +1,4 @@
-// src/app/components/scanner.tsx
+
 'use client';
 
 import { Scanner, IDetectedBarcode, TrackFunction } from '@yudiel/react-qr-scanner';
@@ -37,11 +37,11 @@ export default function QRCodeScanner({
           console.error('Scanner error:', err);
         }}
         formats={[
-            "qr_code", "ean_13", "code_128", "upc_a", "itf" // Common formats
+          "qr_code", "ean_13", "code_128", "upc_a", "itf"
         ]}
         constraints={{
           deviceId: deviceId,
-          facingMode: deviceId ? undefined : 'environment', // Use environment if no specific device is set
+          facingMode: deviceId ? undefined : 'environment',
         }}
         components={{
           onOff: true,
